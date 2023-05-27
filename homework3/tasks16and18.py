@@ -18,7 +18,7 @@ for i in range(size-1):
 if count > 0:
     print(f"\nЧисло {find} встречается {count} раз в списке.")
 else:
-    closest = 0
+    closest = numbers[0]
     for j in numbers:
         if abs(find - numbers[j]) < abs(closest - find):
             closest = numbers[j]
