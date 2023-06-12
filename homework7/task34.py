@@ -12,7 +12,7 @@ def rhythm(text = str, letters = list):
     return len(syllables) < 2
 
 poem = "пара-ра-рам рам-пам-папам па-ра-па-да-"
-vowels = ['Э', 'У', 'Е', 'Ы', 'О', 'А', 'Я', 'И', 'Ю']
+vowels = ['Э', 'У', 'Е', 'Ы', 'О', 'А', 'Я', 'И', 'Ю', 'Ё']
 if rhythm(poem, vowels) == True:
     print("Парам пам-пам")
 else:
